@@ -2,6 +2,14 @@ body {
     background-color: #F0F0F0;
 }
 
+header {
+    background-color: white;
+}
+
+.row {
+    padding-top: 15px;
+}
+
 li {
     list-style-image: url(/images/bullet.png);
     margin-left : 15px;
@@ -48,9 +56,10 @@ h4 {
 
 .regles {
     cursor: pointer;
-    border: 1px solid black;
     border-radius: 10px;
     padding: 5px 10px;
+    box-shadow: 1px 1px gray;
+    
 }
 
 .regles:hover {
@@ -59,4 +68,10 @@ h4 {
 
 span {
     font-size: 16px;
+}
+
+#acces_rapide {
+    background-color: #d40505;
+    color: white;
+    margin-left: 200px;
 }
