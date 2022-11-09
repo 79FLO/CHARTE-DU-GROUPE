@@ -15,3 +15,30 @@ li {
 h4 {
     margin-left: 15px;
 }
+
+#checkBtn {
+    display: none;
+}
+
+.listing {
+    display: none;
+}
+
+#checkBtn:checked ~ .listing {
+    display: block;
+}
+
+.regles {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.regles:hover {
+    background-color: lightgray;
+}
+
+span {
+    font-size: 16px;
+}
