@@ -15,14 +15,11 @@ li {
     margin-left : 15px;
 }
 
-.regles {
-    background-color: #FFFFFF;
-    border-radius: 8px;
-
-}
-
 h4 {
     margin-left: 15px;
+}
+.marge {
+    padding-top: 10px;
 }
 
 #checkBtn1 {
@@ -56,10 +53,11 @@ h4 {
 }
 
 .regles {
+    background-color: white;
     cursor: pointer;
     border-radius: 10px;
     padding: 5px 10px;
-    box-shadow: 1px 1px gray;
+    box-shadow: 1px 1px 3px #d9d5d5;
     
 }
 
