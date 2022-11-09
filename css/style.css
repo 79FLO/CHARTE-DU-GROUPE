@@ -16,7 +16,16 @@ h4 {
     margin-left: 15px;
 }
 
-#checkBtn {
+#checkBtn1 {
+    display: none;
+}
+#checkBtn2 {
+    display: none;
+}
+#checkBtn3 {
+    display: none;
+}
+#checkBtn4 {
     display: none;
 }
 
@@ -24,7 +33,16 @@ h4 {
     display: none;
 }
 
-#checkBtn:checked ~ .listing {
+#checkBtn1:checked ~ .listing {
+    display: block;
+}
+#checkBtn2:checked ~ .listing {
+    display: block;
+}
+#checkBtn3:checked ~ .listing {
+    display: block;
+}
+#checkBtn4:checked ~ .listing {
     display: block;
 }
 
