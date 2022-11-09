@@ -1,0 +1,17 @@
+body {
+    background-color: #F0F0F0;
+}
+
+li {
+    list-style-image: url(/images/bullet.png);
+    margin-left : 15px;
+}
+
+.regles {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+h4 {
+    margin-left: 15px;
+}
