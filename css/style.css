@@ -78,7 +78,7 @@ span {
     margin-left: 30%;
 }
 
-button[type="randomApprenant"] {
+#random_apprenant {
     margin-left: 35%;
 }
 
@@ -89,7 +89,7 @@ button[type="randomApprenant"] {
     #acces_rapide {
         margin-left: 30%;
     }
-    button[type="randomApprenant"] {
+    #random_apprenant {
         margin-left: 25%;
     }
 }
